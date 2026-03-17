@@ -1,0 +1,79 @@
+{
+    "Deep Blue": {
+        "bg": "#181a33",
+        "bg_highlight": "#21244e",
+        "selected": "#3c7083",
+        "accent": "#141662",
+        "text_primary": "#7fc3ff",
+        "text_primary_selected": "#181a33",
+        "text_secondary": "#7f9aff",
+        "text_secondary_selected": "#45548c"
+    },
+
+    "Night Purple": {
+        "bg": "#1c132b",
+        "bg_highlight": "#2c1d45",
+        "selected": "#7c4dff",
+        "accent": "#3c1e6e",
+        "text_primary": "#d6c6ff",
+        "text_primary_selected": "#241a3d",
+        "text_secondary": "#a89bff",
+        "text_secondary_selected": "#4a3d82"
+    },
+
+    "e621": {
+        "bg": "#00254A",
+        "bg_highlight": "#012E57",
+        "selected": "#FCB328",
+        "accent": "#014995",
+        "text_primary": "#FFFFFF",
+        "text_primary_selected": "#012E57",
+        "text_secondary": "#014995",
+        "text_secondary_selected": "#FFFFFF"
+    },
+    
+    "Thorax": {
+        "bg": "#418D3C",
+        "bg_highlight": "#CAE254",
+        "selected": "#EFFA8E",
+        "accent": "#EA8E2E",
+        "text_primary": "#192A34",
+        "text_primary_selected": "#192A34",
+        "text_secondary": "#F08129",
+        "text_secondary_selected": "#F08129"
+    },
+    
+    "Luna": {
+        "bg": "#363E7A",
+        "bg_highlight": "#12162C",
+        "selected": "#5684E5",
+        "accent": "#1C4CC2",
+        "text_primary": "#FFFFFF",
+        "text_primary_selected": "#000000",
+        "text_secondary": "#FFFFFF",
+        "text_secondary_selected": "#000000"
+    },
+    
+    "Klockwerx": {
+        "bg": "#35304C",
+        "bg_highlight": "#5DA1A7",
+        "selected": "#77DEAF",
+        "accent": "#2A4379",
+        "text_primary": "#FFFFEF",
+        "text_primary_selected": "#2A4379",
+        "text_secondary": "#77DEAF",
+        "text_secondary_selected": "#2A4379"
+    },
+
+    "Minimal OLED": {
+        "bg": "#000000",
+        "bg_highlight": "#222222",
+        "selected": "#444444",
+        "accent": "#333333",
+        "text_primary": "#7f7f7f",
+        "text_primary_selected": "#9f9f9f",
+        "text_secondary": "#00ff00",
+        "text_secondary_selected": "#ff0000"
+    }
+}
+
