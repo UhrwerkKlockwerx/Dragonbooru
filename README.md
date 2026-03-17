@@ -23,3 +23,21 @@ or is plagued by adverts, it relies on us as consumers to put the foot down and
 say no to rampant uncontrolled corporate capitalism and surveillance states. I put my
 money where my mouth is and made my own software because I did not like the current options
 on the market. Hopefully many others will benefit from this software, especially artists.
+
+
+
+---
+# **How to Use**
+
+***Adding Media***
+
+Import files directly into the app image directory. On Linux, this is ```/home/.dragonbooru/images```.
+Some formats may not yet be supported, open a discussion if a file format you use is not supported and I will try to add it.
+
+# This Readme is a work in progress and will be continually updated to provide more information!
+
+REQUIRES FFMPEG!
+Get it here:
+https://ffmpeg.org//
+
+Join the Discord: https://discord.gg/VbBA9RFA9w
