@@ -3,6 +3,7 @@
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+ui/__pycache__/
 *.py[codz]
 *$py.class
 
