@@ -1,0 +1,106 @@
+{
+    "Deep Blue": {
+        "background": "#181a33",
+        "surface": "#21244e",
+        "surface_hover": "#3c7083",
+        "accent": "#141662",
+        "accent_hover": "#3c7083",
+        "selection": "#7f9aff",
+        "text": "#7fc3ff",
+        "text_selected": "#181a33",
+        "text_muted": "#7f9aff",
+        "text_muted_selected": "#45548c",
+        "text_disabled": "#7f9aff",
+        "border": "#141662"
+    },
+
+    "Night Purple": {
+        "background": "#1c132b",
+        "surface": "#2c1d45",
+        "surface_hover": "#7c4dff",
+        "accent": "#3c1e6e",
+        "accent_hover": "#7c4dff",
+        "selection": "#a89bff",
+        "text": "#d6c6ff",
+        "text_selected": "#241a3d",
+        "text_muted": "#a89bff",
+        "text_muted_selected": "#4a3d82",
+        "text_disabled": "#a89bff",
+        "border": "#3c1e6e"
+    },
+
+    "e621": {
+        "background": "#00254A",
+        "surface": "#012E57",
+        "surface_hover": "#FCB328",
+        "accent": "#014995",
+        "accent_hover": "#FCB328",
+        "selection": "#014995",
+        "text": "#FFFFFF",
+        "text_selected": "#012E57",
+        "text_muted": "#014995",
+        "text_muted_selected": "#FFFFFF",
+        "text_disabled": "#014995",
+        "border": "#014995"
+    },
+
+    "Thorax": {
+        "background": "#418D3C",
+        "surface": "#CAE254",
+        "surface_hover": "#EFFA8E",
+        "accent": "#EA8E2E",
+        "accent_hover": "#EFFA8E",
+        "selection": "#F08129",
+        "text": "#192A34",
+        "text_selected": "#192A34",
+        "text_muted": "#F08129",
+        "text_muted_selected": "#F08129",
+        "text_disabled": "#F08129",
+        "border": "#EA8E2E"
+    },
+
+    "Luna": {
+        "background": "#363E7A",
+        "surface": "#12162C",
+        "surface_hover": "#5684E5",
+        "accent": "#1C4CC2",
+        "accent_hover": "#5684E5",
+        "selection": "#FFFFFF",
+        "text": "#FFFFFF",
+        "text_selected": "#000000",
+        "text_muted": "#FFFFFF",
+        "text_muted_selected": "#000000",
+        "text_disabled": "#FFFFFF",
+        "border": "#1C4CC2"
+    },
+
+    "Klockwerx": {
+        "background": "#35304C",
+        "surface": "#5DA1A7",
+        "surface_hover": "#77DEAF",
+        "accent": "#2A4379",
+        "accent_hover": "#77DEAF",
+        "selection": "#77DEAF",
+        "text": "#FFFFEF",
+        "text_selected": "#2A4379",
+        "text_muted": "#77DEAF",
+        "text_muted_selected": "#2A4379",
+        "text_disabled": "#77DEAF",
+        "border": "#2A4379"
+    },
+
+    "Minimal OLED": {
+        "background": "#000000",
+        "surface": "#222222",
+        "surface_hover": "#444444",
+        "accent": "#333333",
+        "accent_hover": "#444444",
+        "selection": "#00ff00",
+        "text": "#7f7f7f",
+        "text_selected": "#9f9f9f",
+        "text_muted": "#00ff00",
+        "text_muted_selected": "#ff0000",
+        "text_disabled": "#00ff00",
+        "border": "#333333"
+    }
+}

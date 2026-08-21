@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/resources">
+    <file>madewithlove.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

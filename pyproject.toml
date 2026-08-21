@@ -1,0 +1,17 @@
+[project]
+name = "drakinsex"
+version = "0.1.0"
+description = "e621 style local image organizer"
+authors = [
+    {name = "AeroByte",email = "84479813+AreoByte@users.noreply.github.com"}
+]
+license = "MIT"
+requires-python = ">=3.8,<3.13"
+dependencies = [
+    "pyside6 (==6.6.3.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
