@@ -1,6 +1,8 @@
 # Created by https://gitignore.org
 # Python.gitignore
 
+database.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 ui/__pycache__/
