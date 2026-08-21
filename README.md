@@ -1,4 +1,4 @@
-# Dragonbooru
+# Drakindex
 A simple, local, offline gallery tagging, search, and organisation tool similar to e621.
 
 This tool is built for large media libraries as a way to keep things organised.
@@ -31,7 +31,7 @@ on the market. Hopefully many others will benefit from this software, especially
 
 ***Adding Media***
 
-Import files directly into the app image directory. On Linux, this is ```/home/.dragonbooru/images```.
+Import files directly into the app image directory. On Linux, this is ```/home/.drakindex/images```.
 Some formats may not yet be supported, open a discussion if a file format you use is not supported and I will try to add it.
 
 # This Readme is a work in progress and will be continually updated to provide more information!
