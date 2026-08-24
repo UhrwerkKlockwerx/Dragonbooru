@@ -1,7 +1,9 @@
 # Created by https://gitignore.org
 # Python.gitignore
 
+# Project specific
 database.db
+portable.flag
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

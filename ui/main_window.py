@@ -140,7 +140,9 @@ class MainWindow:
         dialog = QUiLoader().load(ui_file, self.window)
         ui_file.close()
         if dialog is not None:
-            label = QLabel("Review the changelog for recent updates.", dialog)
+            f = BASE_DIR / 'changelog.clg'
+            clg = open(f).read()
+            label = QLabel(clg, dialog)
             label.setWordWrap(True)
             dialog.scrollAreaWidgetContents.setLayout(QVBoxLayout())
             dialog.scrollAreaWidgetContents.layout().addWidget(label)

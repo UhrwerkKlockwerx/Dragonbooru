@@ -1,3 +1,3 @@
 from db import Database
 
-Database
+print(Database.scan_folders("database.db", ))
