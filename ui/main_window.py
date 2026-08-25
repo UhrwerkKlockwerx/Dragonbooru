@@ -11,6 +11,8 @@ from PySide6.QtWidgets import QApplication, QFileDialog, QLabel, QVBoxLayout
 from . import resources_rc
 from . import theme
 
+from imgsearch import test_list_folders
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 UI_FILE = BASE_DIR/'ui'/'mainwindow.ui'
 
@@ -78,6 +80,8 @@ class MainWindow:
         self.window.rescanButton.clicked.connect(self.rescan_library)
         self.window.saveButton.clicked.connect(self.save_settings)
         self.window.themeComboBox.currentTextChanged.connect(self.preview_theme)
+        # Test code -Aero
+        self.window.apply.clicked.connect(self.display_test_results)
 
     def load_dynamic_content(self):
         self.window.ver.setText(f"Version '{self.version}'")
@@ -150,3 +154,8 @@ class MainWindow:
 
     def show(self):
         self.window.show()
+    
+    # Test code -Aero
+    def display_test_results(self):
+        results = test_list_folders()
+        self.window.imgScanTestLabel.setText(str(results))

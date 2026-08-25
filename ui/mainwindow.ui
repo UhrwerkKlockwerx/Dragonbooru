@@ -36,7 +36,7 @@
     <item>
      <widget class="QStackedWidget" name="mainStack">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="mainMenuPage">
        <layout class="QVBoxLayout" name="mainMenuLayout">
@@ -58,10 +58,10 @@
         <item>
          <spacer name="menuTopSpacer">
           <property name="orientation">
-           <enum>Qt::Orientation::Vertical</enum>
+           <enum>Qt::Vertical</enum>
           </property>
           <property name="sizeType">
-           <enum>QSizePolicy::Policy::Expanding</enum>
+           <enum>QSizePolicy::Expanding</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -71,7 +71,7 @@
           </property>
          </spacer>
         </item>
-        <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <item alignment="Qt::AlignHCenter">
          <widget class="QLabel" name="logo">
           <property name="minimumSize">
            <size>
@@ -86,13 +86,13 @@
            </size>
           </property>
           <property name="pixmap">
-           <pixmap>:/resources/icon.png</pixmap>
+           <pixmap resource="../resources/resources.qrc">:/resources/icon.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
           </property>
           <property name="alignment">
-           <set>Qt::AlignmentFlag::AlignCenter</set>
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -108,7 +108,7 @@
            <string>Drakindex</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignmentFlag::AlignCenter</set>
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -129,18 +129,18 @@
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+          <item alignment="Qt::AlignHCenter">
            <widget class="QPushButton" name="search">
-            <property name="maximumSize">
-             <size>
-              <width>320</width>
-              <height>16777215</height>
-             </size>
-            </property>
             <property name="minimumSize">
              <size>
               <width>240</width>
               <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>320</width>
+              <height>16777215</height>
              </size>
             </property>
             <property name="text">
@@ -148,18 +148,18 @@
             </property>
            </widget>
           </item>
-          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+          <item alignment="Qt::AlignHCenter">
            <widget class="QPushButton" name="settings">
-            <property name="maximumSize">
-             <size>
-              <width>320</width>
-              <height>16777215</height>
-             </size>
-            </property>
             <property name="minimumSize">
              <size>
               <width>240</width>
               <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>320</width>
+              <height>16777215</height>
              </size>
             </property>
             <property name="text">
@@ -167,18 +167,18 @@
             </property>
            </widget>
           </item>
-          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+          <item alignment="Qt::AlignHCenter">
            <widget class="QPushButton" name="exit">
-            <property name="maximumSize">
-             <size>
-              <width>320</width>
-              <height>16777215</height>
-             </size>
-            </property>
             <property name="minimumSize">
              <size>
               <width>240</width>
               <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>320</width>
+              <height>16777215</height>
              </size>
             </property>
             <property name="text">
@@ -191,10 +191,10 @@
         <item>
          <spacer name="menuContentSpacer">
           <property name="orientation">
-           <enum>Qt::Orientation::Vertical</enum>
+           <enum>Qt::Vertical</enum>
           </property>
           <property name="sizeType">
-           <enum>QSizePolicy::Policy::Expanding</enum>
+           <enum>QSizePolicy::Expanding</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -213,10 +213,10 @@
            </size>
           </property>
           <property name="frameShape">
-           <enum>QFrame::Shape::StyledPanel</enum>
+           <enum>QFrame::StyledPanel</enum>
           </property>
           <property name="frameShadow">
-           <enum>QFrame::Shadow::Raised</enum>
+           <enum>QFrame::Raised</enum>
           </property>
           <layout class="QHBoxLayout" name="bottomBarLayout">
            <item>
@@ -229,10 +229,10 @@
            <item>
             <spacer name="leftFooterSpacer">
              <property name="orientation">
-              <enum>Qt::Orientation::Horizontal</enum>
+              <enum>Qt::Horizontal</enum>
              </property>
              <property name="sizeType">
-              <enum>QSizePolicy::Policy::Expanding</enum>
+              <enum>QSizePolicy::Expanding</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
@@ -248,20 +248,20 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>:/resources/madewithlove.png</pixmap>
+              <pixmap resource="../resources/resources.qrc">:/resources/madewithlove.png</pixmap>
              </property>
              <property name="alignment">
-              <set>Qt::AlignmentFlag::AlignCenter</set>
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
            <item>
             <spacer name="rightFooterSpacer">
              <property name="orientation">
-              <enum>Qt::Orientation::Horizontal</enum>
+              <enum>Qt::Horizontal</enum>
              </property>
              <property name="sizeType">
-              <enum>QSizePolicy::Policy::Expanding</enum>
+              <enum>QSizePolicy::Expanding</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
@@ -309,7 +309,7 @@
            </size>
           </property>
           <property name="frameShape">
-           <enum>QFrame::Shape::StyledPanel</enum>
+           <enum>QFrame::StyledPanel</enum>
           </property>
           <layout class="QHBoxLayout" name="searchToolbarLayout">
            <property name="spacing">
@@ -383,10 +383,10 @@
            <item>
             <spacer name="searchToolbarSpacer">
              <property name="orientation">
-              <enum>Qt::Orientation::Horizontal</enum>
+              <enum>Qt::Horizontal</enum>
              </property>
              <property name="sizeType">
-              <enum>QSizePolicy::Policy::Expanding</enum>
+              <enum>QSizePolicy::Expanding</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
@@ -433,6 +433,19 @@
              <height>611</height>
             </rect>
            </property>
+           <widget class="QLabel" name="imgScanTestLabel">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>10</y>
+              <width>861</width>
+              <height>581</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
           </widget>
          </widget>
         </item>
@@ -482,17 +495,17 @@
              <string>Settings</string>
             </property>
             <property name="alignment">
-             <set>Qt::AlignmentFlag::AlignCenter</set>
+             <set>Qt::AlignCenter</set>
             </property>
            </widget>
           </item>
           <item>
            <spacer name="settingsHeaderBalanceSpacer">
             <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
+             <enum>Qt::Horizontal</enum>
             </property>
             <property name="sizeType">
-             <enum>QSizePolicy::Policy::Fixed</enum>
+             <enum>QSizePolicy::Fixed</enum>
             </property>
             <property name="sizeHint" stdset="0">
              <size>
@@ -507,7 +520,7 @@
         <item>
          <widget class="QScrollArea" name="settingsScrollArea">
           <property name="frameShape">
-           <enum>QFrame::Shape::NoFrame</enum>
+           <enum>QFrame::NoFrame</enum>
           </property>
           <property name="widgetResizable">
            <bool>true</bool>
@@ -517,8 +530,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>839</width>
-             <height>601</height>
+             <width>421</width>
+             <height>651</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="settingsContentsLayout">
@@ -671,10 +684,10 @@
                    <item>
                     <spacer name="libraryActionSpacer">
                      <property name="orientation">
-                      <enum>Qt::Orientation::Horizontal</enum>
+                      <enum>Qt::Horizontal</enum>
                      </property>
                      <property name="sizeType">
-                      <enum>QSizePolicy::Policy::Expanding</enum>
+                      <enum>QSizePolicy::Expanding</enum>
                      </property>
                      <property name="sizeHint" stdset="0">
                       <size>
@@ -739,10 +752,10 @@
             <item>
              <spacer name="settingsContentSpacer">
               <property name="orientation">
-               <enum>Qt::Orientation::Vertical</enum>
+               <enum>Qt::Vertical</enum>
               </property>
               <property name="sizeType">
-               <enum>QSizePolicy::Policy::Expanding</enum>
+               <enum>QSizePolicy::Expanding</enum>
               </property>
               <property name="sizeHint" stdset="0">
                <size>
@@ -768,10 +781,10 @@
           <item>
            <spacer name="settingsFooterSpacer">
             <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
+             <enum>Qt::Horizontal</enum>
             </property>
             <property name="sizeType">
-             <enum>QSizePolicy::Policy::Expanding</enum>
+             <enum>QSizePolicy::Expanding</enum>
             </property>
             <property name="sizeHint" stdset="0">
              <size>
@@ -799,6 +812,7 @@
  </widget>
  <resources>
   <include location="../resources/resources.qrc"/>
+  <include location="../../../../../../.designer/resources/resources.qrc"/>
  </resources>
  <connections/>
 </ui>
