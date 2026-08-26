@@ -6,9 +6,9 @@ authors = [
     {name = "AeroByte",email = "84479813+AreoByte@users.noreply.github.com"}
 ]
 license = "MIT"
-requires-python = ">=3.8,<3.13"
+requires-python = "<3.15,>=3.10"
 dependencies = [
-    "pyside6 (==6.6.3.1)"
+    "pyside6 (==6.11.2)"
 ]
 
 
