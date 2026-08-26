@@ -4,10 +4,10 @@
 # Project specific
 database.db
 portable.flag
+ui/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-ui/__pycache__/
 *.py[codz]
 *$py.class
 
